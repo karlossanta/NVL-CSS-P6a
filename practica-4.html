@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <title>NVL-CSS-P6a</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            td {
+                padding: 5px;
+            }
+            th {
+                font-size: 1.1em;
+            }
+            #dureza1 {
+                background-color: black;
+                color: white;
+            }
+            #dureza2 {
+                background-color: #191919;
+                color: white;
+            }
+            #dureza3 {
+                background-color: #333333;
+                color: white;
+            }
+            #dureza4 {
+                background-color: #4C4C4C;
+                color: white;
+            }
+            #dureza5 {
+                background-color: #666666;
+                color: white;
+            }
+            #dureza6 {
+                background-color: #808080;
+                color: black;
+            }
+            #dureza7 {
+                background-color: #999999;
+                color: black;
+            }
+            #dureza8 {
+                background-color: #B3B3B3;
+                color: black;
+            }
+            #dureza9 {
+                background-color: #CCCCCC;
+                color: black;
+            }
+            #dureza10 {
+                background-color: white;
+                color: black;
+            }
+            .dureza {
+                text-align: center;
+                font-weight: bolder;
+            }
+            .mineral {
+                font: condensed oblique small-caps 1.1em Georgia;
+            }
+            .quimica {
+                font: 1em monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption><strong>Tabla de Dureza de Mosh</strong></caption>
+            <tr>
+                <th>Dureza</th>
+                <th>Mineral</th>
+                <th>Se raya con / raya a</th>
+                <th>Composición Química</th>
+            </tr>
+            <tr>
+                <td class="dureza" id="dureza1">1</td>
+                <td class="mineral">Talco <img src="talco.jpg" alt="foto de tres piedras de talco" height="40px"></td>
+                <td class="rayado">Se puede rallar fácilmente con la uña</td>
+                <td class="quimica">Mg<sub>3</sub>Si<sub>4</sub>O<sub>10</sub>(OH)<sub>2</sub></td>
+            </tr>
+            <tr>
+                <td class="dureza" id="dureza2">2</td>
+                <td class="mineral">Yeso <img src="yeso.jpg" alt="foto de una piedra de yeso" height="40px"></td>
+                <td class="rayado">Se puede rallar con la uña con más dificultad</td class="rayado">
+                <td class="quimica">CaSO<sub>4</sub>2H<sub>2</sub>O</td>
+            </tr>
+            <tr>
+                <td class="dureza" id="dureza3">3</td>
+                <td class="mineral">Calcita <img src="calcita.jpg" alt="foto de una piedra de calcita" height="40px"></td>
+                <td class="rayado">Se puede rallar con una moneda de cobre</td>
+                <td class="quimica">CaCO<sub>3</sub></td>
+            </tr>
+            <tr>
+                <td class="dureza" id=dureza4>4</td>
+                <td class="mineral">Fluorita <img src="fluorita.jpg" alt="foto de fluorita azul" height="40px"></td>
+                <td class="rayado">Se puede rallar con un cuchillo de acero</td>
+                <td class="quimica">CaF<sub>2</sub></td>
+            </tr>
+            <tr>
+                <td class="dureza" id="dureza5">5</td>
+                <td class="mineral">Apatito <img src="apatita.jpg" alt="foto de una piedra de apatita" height="40px"></td>
+                <td class="rayado">Se puede rallar dificilmente con un cuchillo</td>
+                <td class="quimica">Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>(OH-,CI-,F-)I</td>
+            </tr>
+            <tr>
+                <td class="dureza" id="dureza6">6</td>
+                <td class="mineral">Ortosa <img src="ortosa.jpg" alt="foto de una piedra de ortosa" height="40px"></td>
+                <td class="rayado">Se puede rallar con una lija para el acero</td>
+                <td class="quimica">KAISi<sub>3</sub>O<sub>8</sub></td>
+            </tr>
+            <tr>
+                <td class="dureza" id="dureza7">7</td>
+                <td class="mineral">Cuarzo <img src="cuarzo.jpg" alt="foto de una roca de cuarzo" height="40px"></td>
+                <td class="rayado">Raya el vidrio</td>
+                <td class="quimica">SiO<sub>2</sub></td>
+            </tr>
+            <tr>
+                <td class="dureza" id="dureza8">8</td>
+                <td class="mineral">Topacio <img src="topacio.jpg" alt="foto de una roca de cuarzo" height="40px"></td>
+                <td class="rayado">Rayado por herramientas de carburo de wolframio</td>
+                <td class="quimica">Al<sub>2</sub>SiO<sub>4</sub>(OH-,F-)<sub>2</sub></td>
+            </tr>
+            <tr>
+                <td class="dureza" id="dureza9">9</td>
+                <td class="mineral">Corindón <img src="corindon.jpg" alt="foto de una roca de corindon" height="40px"></td>
+                <td class="rayado">Rayado por herramientas de carburo de silicio</td>
+                <td class="quimica">Al<sub>2</sub>O<sub>3</sub></td>
+            </tr>
+            <tr>
+                <td class="dureza" id="dureza10">10</td>
+                <td class="mineral">Diamante <img src="diamante.jpg" alt="foto de unos pocos diamantes" height="40px"></td>
+                <td class="rayado">El material más duro en esta escala (rayado por otro diamante)</td>
+                <td class="quimica">C</td>
+            </tr>
+        </table>
+    </body>
+</html>
