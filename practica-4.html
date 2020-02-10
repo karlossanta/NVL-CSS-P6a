@@ -4,16 +4,20 @@
         <meta charset="utf-8">
         <title>NVL-CSS-P6a</title>
         <style>
+            /* Borde que delimita las celdas de la tabla */
             table, th, td {
                 border: 1px solid black;
                 border-collapse: collapse;
             }
+            /* En todos los valores de la tabla deja un margen interior en todos los sentidos de 5px */
             td {
                 padding: 5px;
             }
+            /* El texto del encabezado de la tabla, lo hacemos un pelín más grande, 1em es el tamaño de la fuente por defecto */
             th {
                 font-size: 1.1em;
             }
+            /* Establecemos el graduiente del fondo según la dureza */
             #dureza1 {
                 background-color: black;
                 color: white;
@@ -54,13 +58,16 @@
                 background-color: white;
                 color: black;
             }
+            /* Este estilo se aplica a la clase 'dureza', la cual hemos aplicado a toda la columna 'Dureza' */
             .dureza {
                 text-align: center;
                 font-weight: bolder;
             }
+            /* Este estilo se aplica a la clase 'mineral', la cual hemos aplicado a toda la columna 'Mineral' */
             .mineral {
                 font: condensed oblique small-caps 1.1em Georgia;
             }
+            /* Este estilo se aplica a la clase 'quimica', la cual hemos aplicado a toda la columna 'Composición química' */
             .quimica {
                 font: 1em monospace;
             }
